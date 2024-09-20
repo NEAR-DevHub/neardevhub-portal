@@ -258,7 +258,7 @@ async function getSuggestedRfps(id) {
   }
   await asyncFetch("https://near-queryapi.api.pagoda.co/v1/graphql", {
     method: "POST",
-    headers: { "x-hasura-role": "polyprogrammist_near" },
+    headers: { "x-hasura-role": "${REPL_INDEXER_HASURA_ROLE}" },
     body: JSON.stringify({
       query: rfpQuery,
       variables: variables,
@@ -301,7 +301,7 @@ async function getSuggestedProposals(id) {
   }
   await asyncFetch("https://near-queryapi.api.pagoda.co/v1/graphql", {
     method: "POST",
-    headers: { "x-hasura-role": "polyprogrammist_near" },
+    headers: { "x-hasura-role": "${REPL_INDEXER_HASURA_ROLE}" },
     body: JSON.stringify({
       query: proposalQuery,
       variables: variables,

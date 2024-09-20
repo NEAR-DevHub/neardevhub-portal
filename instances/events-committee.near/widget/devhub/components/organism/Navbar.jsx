@@ -66,7 +66,7 @@ const ProfileIcon = () => {
       })}
     >
       <Widget
-        src="${REPL_EVENTS}/widget/devhub.components.molecule.ProfileCard"
+        src="${REPL_DEVHUB}/widget/devhub.components.molecule.ProfileCard"
         props={{ iconOnly: true, accountId: context.accountId || null }}
       />
     </Link>

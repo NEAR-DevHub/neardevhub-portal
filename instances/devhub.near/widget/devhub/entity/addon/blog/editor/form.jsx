@@ -141,7 +141,7 @@ const ContentEditor = ({ content, setContent }) => {
     <div>
       <h5>Content</h5>
       <Widget
-        src="${REPL_DEVHUB}/widget/devhub.components.molecule.MarkdownEditor"
+        src="${REPL_DEVHUB}/widget/devhub.components.molecule.SimpleMDE"
         props={{ data: { content }, onChange: setContent }}
       />
     </div>

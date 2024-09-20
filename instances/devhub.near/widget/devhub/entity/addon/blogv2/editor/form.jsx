@@ -154,7 +154,7 @@ const DateInput = () => {
 const ContentEditor = useMemo(() => {
   return (
     <Widget
-      src="${REPL_DEVHUB}/widget/devhub.components.molecule.MarkdownEditor"
+      src="${REPL_DEVHUB}/widget/devhub.components.molecule.SimpleMDE"
       props={{ data: { content }, onChange: setContent, autoFocus: false }}
     />
   );

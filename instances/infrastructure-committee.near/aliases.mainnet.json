@@ -8,5 +8,6 @@
   "REPL_RFP_FEED_INDEXER_QUERY_NAME": "polyprogrammist_near_devhub_ic_v1_rfps_with_latest_snapshot",
   "REPL_RFP_INDEXER_QUERY_NAME": "polyprogrammist_near_devhub_ic_v1_rfp_snapshots",
   "REPL_PROPOSAL_FEED_INDEXER_QUERY_NAME": "polyprogrammist_near_devhub_ic_v1_proposals_with_latest_snapshot",
-  "REPL_PROPOSAL_QUERY_NAME": "polyprogrammist_near_devhub_ic_v1_proposal_snapshots"
+  "REPL_PROPOSAL_QUERY_NAME": "polyprogrammist_near_devhub_ic_v1_proposal_snapshots",
+  "REPL_INDEXER_HASURA_ROLE": "polyprogrammist_near"
 }

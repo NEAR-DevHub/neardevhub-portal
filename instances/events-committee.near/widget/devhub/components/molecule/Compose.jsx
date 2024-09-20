@@ -106,7 +106,7 @@ const Compose = ({
           <div className="card-body">
             <Widget
               src={
-                "${REPL_EVENTS}/widget/devhub.components.molecule.MarkdownViewer"
+                "${REPL_DEVHUB}/widget/devhub.components.molecule.MarkdownViewer"
               }
               props={{
                 text: state.data,

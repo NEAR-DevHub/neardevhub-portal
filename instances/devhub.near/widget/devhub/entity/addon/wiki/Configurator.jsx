@@ -123,7 +123,7 @@ return (
             />
           </div>
           <Widget
-            src="${REPL_DEVHUB}/widget/devhub.components.molecule.MarkdownEditor"
+            src="${REPL_DEVHUB}/widget/devhub.components.molecule.SimpleMDE"
             props={{ data: { content }, onChange: setContent }}
           />
         </FormContainer>

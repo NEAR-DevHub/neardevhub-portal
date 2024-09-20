@@ -108,7 +108,7 @@ return (
                 moderators.map((child) => (
                   <Tile className="w-25 p-3 m-1" minHeight={10}>
                     <Widget
-                      src={`${REPL_EVENTS}/widget/devhub.components.molecule.ProfileLine`}
+                      src="${REPL_DEVHUB}/widget/devhub.components.molecule.ProfileLine"
                       props={{ accountId: child }}
                     />
                   </Tile>

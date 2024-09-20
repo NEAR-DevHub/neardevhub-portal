@@ -21,7 +21,7 @@ const QUERYAPI_ENDPOINT = `https://near-queryapi.api.pagoda.co/v1/graphql`;
 async function fetchGraphQL(operationsDoc, operationName, variables) {
   return asyncFetch(QUERYAPI_ENDPOINT, {
     method: "POST",
-    headers: { "x-hasura-role": `polyprogrammist_near` },
+    headers: { "x-hasura-role": "${REPL_INDEXER_HASURA_ROLE}" },
     body: JSON.stringify({
       query: operationsDoc,
       variables: variables,

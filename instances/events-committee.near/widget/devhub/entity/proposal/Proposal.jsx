@@ -865,7 +865,7 @@ return (
                       DESCRIPTION
                     </div>
                     <Widget
-                      src="${REPL_EVENTS}/widget/devhub.components.molecule.MarkdownViewer"
+                      src="${REPL_DEVHUB}/widget/devhub.components.molecule.MarkdownViewer"
                       props={{ text: snapshot.description }}
                     />
 
@@ -1026,7 +1026,7 @@ return (
                       <div className="mt-2 d-flex flex-column gap-2">
                         <h6 className="mb-0">Proposal Status</h6>
                         <Widget
-                          src="${REPL_EVENTS}/widget/devhub.components.molecule.DropDown"
+                          src="${REPL_DEVHUB}/widget/devhub.components.molecule.DropDown"
                           props={{
                             options: proposalStatusOptions,
                             selectedValue: updatedProposalStatus,
