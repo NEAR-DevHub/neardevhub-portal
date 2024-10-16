@@ -11,6 +11,9 @@
     "replace-in-files": "^3.0.0",
     "simple-git-hooks": "^2.9.0"
   },
+  "resolutions": {
+    "ws": "^7.5.10"
+  },
   "scripts": {
     "fmt": "prettier --write '**/*.{js,jsx,ts,tsx,json}'",
     "fmt:check": "prettier --check '**/*.{js,jsx,ts,tsx,json}'",
