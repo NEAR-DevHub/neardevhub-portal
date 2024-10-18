@@ -374,9 +374,9 @@ const proposalStatusOptions = [
     label: "Rejected",
     value: {
       status: TIMELINE_STATUS.REJECTED,
-      sponsor_requested_review: true,
+      sponsor_requested_review: false,
       reviewer_completed_attestation: false,
-      kyc_verified: true,
+      kyc_verified: false,
     },
   },
   {
@@ -385,7 +385,7 @@ const proposalStatusOptions = [
       status: TIMELINE_STATUS.CANCELED,
       sponsor_requested_review: false,
       reviewer_completed_attestation: false,
-      kyc_verified: true,
+      kyc_verified: false,
     },
   },
   {
